@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: radial-gradient(circle, #1e3c72, #2a5298);
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+#demo-area {
+  width: 100%;
+  height: 100vh;
+}
+
+.controls {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3b2f;
+}
+
+label {
+  margin-left: 10px;
+}
+
+#speedSlider {
+  width: 300px;
+}
+
+#metrics {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  font-size: 40px;
+}
+
+#metrics p {
+  margin: 0;
+}
